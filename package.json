@@ -1,0 +1,9 @@
+{
+  "name": "bamboo",
+  "version": "1.0.0",
+  "repository": "https://github.com/mahanfarzaneh2000/Bamboo",
+  "description": "Note-taking and productivity web based application",
+  "main": "src/index.js",
+  "author": "mahanfarzaneh2000 <mahan.farzaneh@gmail.com>",
+  "license": "GNU AGPLv3"
+}
