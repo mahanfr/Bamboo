@@ -19,10 +19,10 @@ document.querySelector('#app').innerHTML = `
         <div class=""></div>
     </nav>
     <section style="height: calc(100vh - 71px);" class="flex flex-row grow">
-         <div class="flex flex-col w-1/5 bg-gray-600">
-             <p>New Note</p> 
+         <div class="flex flex-col w-[200px] min-w-[200px]  bg-gray-600">
+             <p>New Note</p>
          </div>
-        <div class="grow" id="editor"></div>
+        <div class="w-screen max-w-screen overflow-x-scroll" id="editor"></div>
     </section>
 `
 setupEditor(document.getElementById("editor"))
